@@ -1,60 +1,37 @@
-# Dynamic Pricing for Ride-Sharing Services 🚗💸
+## Overview
+The goal of this project is to build a Dash web application that predicts the ride price using a trained Gradient Boosting model. The model is trained on a dataset containing features like distance, demand, time of day, and weather conditions. The app allows users to input these factors and get a predicted price for the ride.
 
-This project demonstrates how to build a **Dynamic Pricing System** for ride-sharing services using multiple machine learning algorithms and a web-based user interface powered by Dash. 
+## Features
+Input fields: Users can input the following:
+Distance (in kilometers)
+Demand Index (a rating from 1 to 10)
+Time of Day (Morning, Afternoon, Evening, Night)
+Weather (Clear, Rainy, Snowy)
+Prediction: Once all inputs are provided, the app predicts the ride price using the trained Gradient Boosting model.
 
-The system predicts ride prices dynamically based on features such as distance, time of day, demand, and weather conditions, leveraging machine learning models to optimize predictions.
+### Model Evaluation
+The best model was selected based on the Mean Absolute Error (MAE) and R² score. Gradient Boosting provided the lowest MAE and the highest R², making it the best model for the prediction task.
 
----
-
-## **Project Features**
-
-### **1. Data Simulation**
-- A synthetic dataset is generated with 1000 samples, containing:
-  - `Distance` (in km)
-  - `Time of Day` (Morning, Afternoon, Evening, Night)
-  - `Demand` Index (1 to 10)
-  - `Weather` (Clear, Rainy, Snowy)
-- Dynamic pricing is calculated using custom multipliers based on time of day and weather.
-
-### **2. Machine Learning Workflow**
-- Trains and evaluates multiple models:
-  - **Random Forest Regressor**
-  - **Linear Regression**
-  - **Gradient Boosting Regressor**
-  - **XGBoost Regressor**
-- Evaluates models using metrics:
-  - **Mean Absolute Error (MAE)**
-  - **R² Score**
-- Selects the **best model** for predictions based on performance.
-
-### **3. Interactive Dashboard**
-- Built using **Dash** to provide a user-friendly interface for real-time predictions.
-- Users can input:
-  - Distance (in km)
-  - Demand Index
-  - Time of Day
-  - Weather
-- Displays predicted ride price dynamically.
-
----
+The Gradient Boosting model was selected as the best model based on its performance in both metrics:
+MAE: 14.56
+R² Score: 0.9802
 
 ## **Installation**
 
 ### **1. Clone the Repository**
-```bash
-git clone https://github.com/<username>/<repository-name>.git
-cd <repository-name>
-```
+git clone https://github.com/yourusername/ride-sharing-dynamic-pricing.git
+cd ride-sharing-dynamic-pricing
+
 ### **2. Install Dependencies**
 Make sure you have Python installed (>= 3.7). 
 Install the required libraries:
 pip install -r requirements.txt
+
 ### **3. Run the App**
 Run the Dash app locally:
 python app.py
 The app will run at http://127.0.0.1:8050/.
 
-----
 ## Acknowledgements
 1. Dash by Plotly for building the interactive web application.
 2. Scikit-learn and XGBoost for machine learning implementations.
