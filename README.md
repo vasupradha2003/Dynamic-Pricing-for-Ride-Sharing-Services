@@ -45,11 +45,11 @@ The system predicts ride prices dynamically based on features such as distance, 
 git clone https://github.com/<username>/<repository-name>.git
 cd <repository-name>
 ```
-### **2. Install Dependenciesb**
+### **2. Install Dependencies**
 Make sure you have Python installed (>= 3.7). 
 Install the required libraries:
 pip install -r requirements.txt
-### ** 3. Run the App**
+### **3. Run the App**
 Run the Dash app locally:
 python app.py
 The app will run at http://127.0.0.1:8050/.
