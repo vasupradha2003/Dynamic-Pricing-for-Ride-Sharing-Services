@@ -79,6 +79,9 @@ Below is an example of the predicted output from the application:
 | Time of Day: Evening  |                         |
 | Weather: Rainy        |                         |
 
+![image](https://github.com/user-attachments/assets/c8169679-479b-40de-a037-80a9e4568190)
+
+
 ---
 
 ### Feedback & Contributions
