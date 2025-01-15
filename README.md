@@ -1,7 +1,7 @@
 # Dynamic Pricing for Ride-Sharing Services
 
 ## Overview
-This project aims to develop a **Dash web application** that predicts ride prices using a trained **Gradient Boosting model**. The application allows users to input key factors such as distance, demand, time of day, and weather conditions to receive an accurate price prediction for the ride.  
+This project aims to Develop an end-to-end machine learning model integrated into a **Dash web application** for predicting the ride prices using a trained **Gradient Boosting model**. The application allows users to input key factors such as distance, demand, time of day, and weather conditions to receive an accurate price prediction for the ride.  
 
 The trained model was developed and evaluated on a dataset containing features like:
 - Distance (in kilometers)
