@@ -73,12 +73,12 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 Below is an example of the predicted output from the application:
 ![image](https://github.com/user-attachments/assets/c8169679-479b-40de-a037-80a9e4568190)
 
-| **Inputs**            | **Predicted Price (₹)** |
-|-----------------------|-------------------------|
-| Distance: 10 km       |   303.87                |
-| Demand Index: 8       |                         |
-| Time of Day: Evening  |                         |
-| Weather: Rainy        |                         |
+|      **Inputs**       | 
+|-----------------------|
+| Distance: 10 km       |   
+| Demand Index: 8       |                         
+| Time of Day: Evening  |                         
+| Weather: Rainy        |                         
 
 
 
